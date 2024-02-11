@@ -4,7 +4,7 @@ import os
 
 class ProductList:
     def __init__(self, file_name):
-        self.__file_name = file_name
+        self.__file_name = file_name_yes
 
     def add(self, product):
         with open(self.__file_name, 'a', encoding='cp1251') as f:
